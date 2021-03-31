@@ -1,4 +1,4 @@
-long = int (input('請輸入高'))
+long = int (input('請輸入高:'))
 i = 0
 
 while (i < long):
