@@ -1,4 +1,4 @@
-choose = int (input ('請選擇要輸入的三角形:\n1. 直角三角形(靠左)\n2. 直角三角形(靠右)\n3. 倒直角三角形'))
+choose = int (input ('請選擇要輸入的三角形:\n1. 直角三角形(靠左)\n2. 直角三角形(靠右)\n3. 倒直角三角形\n請輸入:'))
 long = int (input ('要輸出多高的三角形:'))
 
 if (choose == 1):
@@ -59,3 +59,5 @@ elif (choose == 3):
 
         long -= 1
             
+else:
+    print ('錯誤')
